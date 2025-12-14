@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  hsl(235, 18%, 26%);
+}
+
+.main{
+    width: 700px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+    justify-content: space-between;
+
+}
+
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 10px;
+
+}
+
+.lefttop{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.lefttop h1{
+    color: hsl(234, 29%, 20%);
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.lefttop p{
+    color: hsl(235, 18%, 26%);
+    font-size: 16px;
+    text-align: left;
+}
+
+.con{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.midlle{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.p1{
+    display: flex;
+    gap: 15px;
+        color: hsl(235, 18%, 26%);
+}
+
+.p2{
+    display: flex;
+    gap: 15px;
+        color: hsl(235, 18%, 26%);
+}
+
+.p3{
+    display: flex;
+    gap: 15px;
+        color: hsl(235, 18%, 26%);
+}
+
+
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.right img{
+    width: 320px;
+    height: 500px;
+}
+
+.bottom{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom p{
+    font-size: 12px;
+    font-weight: bold;
+    color: hsl(235, 18%, 26%);
+}
+
+.bottom input{
+    width: 90%;
+    height: 40px;
+    border: hsl(0, 0%,58%) solid 1px;
+    border-radius: 5px;
+}
+
+.sub{
+    background-color: hsl(234, 29%, 20%);
+    color: white;
+    width: 90%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sub h4{
+    font-weight: lighter;
+}
+
+.sub:hover{
+    background: linear-gradient( to right, hsl(4, 100%, 67%),  hsla(4, 43%, 50%, 0.596));
+}
